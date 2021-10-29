@@ -20,7 +20,7 @@ In your [.lintstagedrc.js], import _config-lint-staged_ and use it in the export
 const config = require('@fundamend/config-lint-staged');
 
 module.exports = {
-	...config,
+	...config
 };
 ```
 
@@ -31,7 +31,7 @@ const config = require('@fundamend/config-lint-staged');
 
 module.exports = {
 	...config,
-	'*.{js,ts}': 'eslint',
+	'*.{js,ts}': 'eslint'
 };
 ```
 
